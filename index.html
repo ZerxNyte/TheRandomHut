@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-  <title>
-    The Random Hut! :3
-  </title>
-</head>
-<body>
-<h1>WELCOME TO THE RANDOM HUT!</h1>
 
-<p>Stop by in a month or two to see something different!</p>
-<button> Enter your social security number for free health insurance today! </button>
-</body>
+<html lang="en-US">
+  <head>
+    <title>The Random Hut! :3</title>
+  
+    <style>
+      body {
+        font-family: 'Arial';
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>WELCOME TO THE RANDOM HUT!</h1>
+
+    <p>Stop by in a month or two to see something different!</p>
+    <input placeholder="Social security number..."><br>
+    <button id="submit">Get your free health insurance!</button>
+
+    <script>
+      document.getElementById("submit").addEventListener("click", function() {
+        document.body.innerHTML = `<h1>HAHA YOU JUST GOT SCAMMED L LOSER + RATIO`;
+      })
+    </script>
+  </body>
 </html>
